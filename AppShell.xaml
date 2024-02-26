@@ -85,11 +85,11 @@
         <Tab Title="Domestic" Icon="paw.png" Route="Tabs2_3">
             
             <ShellContent
-                Title="Tab2" Icon="monkey.png"
+                Title="Dogs" Icon="monkey.png"
                 ContentTemplate="{DataTemplate views:Dogs}"
                 Route="Dogs" />
             <ShellContent
-                Title="Tab3" Icon="elephant.png"
+                Title="Cats" Icon="cat.png"
                 ContentTemplate="{DataTemplate views:Cats}"
                 Route="Cats" />
         </Tab>
