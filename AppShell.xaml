@@ -82,11 +82,7 @@
     
     <TabBar>
         
-        <ShellContent
-            Title="Domstic" Icon="paw.png"
-            ContentTemplate="{DataTemplate views:Domestic}"
-            Route="Tab1" />
-        <Tab Title="Domestic" Icon="icon2.png" Route="Tabs2_3">
+        <Tab Title="Domestic" Icon="paw.png" Route="Tabs2_3">
             
             <ShellContent
                 Title="Tab2" Icon="monkey.png"
