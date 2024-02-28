@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ShellLessonStep2.Views.Cats"
-             Title="Cats">
+             x:Class="ShellLessonStep2.Views.Elephants"
+             Title="Elephants">
     <RefreshView 
 Command="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}">
         <VerticalStackLayout>
 
 
-            <CollectionView ItemsSource="{Binding Cats}" x:Name="theCollectionView"
-               SelectedItem="{Binding SelectedCat}"
+            <CollectionView ItemsSource="{Binding Elephants}" x:Name="theCollectionView"
+               SelectedItem="{Binding SelectedElephant}"
        SelectionMode="Single" SelectionChangedCommand="{Binding SingleSelectCommand}">
 
                 <CollectionView.ItemTemplate>
