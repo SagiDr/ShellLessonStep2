@@ -31,8 +31,7 @@ namespace ShellLessonStep2.ViewModels
         public ElephantsViewModel(AnimalService service)
         {
             this.animalService = service;
-            Elephants = new ObservableCollection<Animal>();
-            Elephants = (ObservableCollection<Animal>)this.animalService.GetElephants();
+            Elephants = new ObservableCollection<Animal>(this.animalService.GetElephants());
             IsRefreshing = false;
         }
 
